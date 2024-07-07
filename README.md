@@ -126,12 +126,6 @@ This example demonstrates how to use clipping and masking techniques in CSS.
 
 - [Example Code](clip-mask.html)
 
-## CSS Grid vs. Flexbox
-
-This example demonstrates the differences and use cases of CSS Grid and Flexbox.
-
-- [Example Code](css-grid-vs-flexbox.html)
-
 ## Custom Fonts
 
 This example demonstrates how to use custom fonts in CSS.
@@ -148,6 +142,3 @@ This example demonstrates how to create print styles for your web pages using CS
 
 If you'd like to contribute to this repository, feel free to fork the repo and submit a pull request with your changes.
 
-## License
-
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
