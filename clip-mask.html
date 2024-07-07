@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clip and Mask</title>
+    <style>
+        .clip-example {
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            clip-path: circle(50%);
+        }
+        .mask-example {
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            mask-image: radial-gradient(circle, transparent, black);
+        }
+    </style>
+</head>
+<body>
+    <h1>Clip and Mask</h1>
+    <div class="clip-example">Clipped Div</div>
+    <div class="mask-example">Masked Div</div>
+</body>
+</html>
