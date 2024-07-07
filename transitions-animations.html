@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions and Animations</title>
+    <style>
+        .transition {
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            transition: background-color 0.5s ease;
+        }
+        .transition:hover {
+            background-color: lightgreen;
+        }
+
+        @keyframes example {
+            from {background-color: lightblue;}
+            to {background-color: lightgreen;}
+        }
+        .animation {
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            animation: example 2s infinite alternate;
+        }
+    </style>
+</head>
+<body>
+    <h1>Transitions and Animations</h1>
+    <div class="transition">Hover over me</div>
+    <div class="animation">Animating</div>
+</body>
+</html>
