@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Print Styles</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        @media print {
+            body {
+                color: black;
+                background-color: white;
+            }
+            .no-print {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Print Styles</h1>
+    <p>This text will be printed in black and white.</p>
+    <div class="no-print">This content will not be printed.</div>
+</body>
+</html>
