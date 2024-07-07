@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables</title>
+    <style>
+        :root {
+            --main-color: lightblue;
+            --secondary-color: lightgreen;
+            --padding: 20px;
+        }
+        .variable-example {
+            background-color: var(--main-color);
+            color: var(--secondary-color);
+            padding: var(--padding);
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Variables</h1>
+    <div class="variable-example">This div uses CSS variables.</div>
+</body>
+</html>
